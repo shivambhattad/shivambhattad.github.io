@@ -1,0 +1,64 @@
+/*Cascading style sheet for the website*/
+
+/*text inside asterisks and slashes are comment for human*/
+
+a
+{
+	color:blue;/*set the coloetext color to blue here*/
+	text decoration:none;/*this means we do not want hyperlinks to be underlined*/
+}
+a:hover
+{
+    color:red;/*set the text color to red here*/
+	text decoration:none;/*this means we do not want hyperlinks to be underlined*/
+}
+body
+{
+	/*set the background color here*/
+	/*set the text color to black here*/
+	/*set the font here*/
+	/*set the text alignment here*/
+	background-color:beige;
+	color:black;
+	font-family:Arail,Helvetica,sans-serif;
+	text-align:center;
+}
+footer
+{
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+h1
+{
+	
+	margin-top:3rem;
+	margin-bottom:0.5em;
+}
+h2
+{
+	/*set the text color of to #075AAB here*/
+	/*set the both bottom margin and top margin to 2.5rem here*/
+	color:green;
+	margin-top:2.5rem;
+	margin-bottom:2.5rem;
+}
+h3
+{
+	margin-top:2rem;
+	margin-bottom:0;
+}
+h4
+{
+	margin-top:0.5rem;
+	margin-bottom:1rem;
+}
+h5
+{
+	margin-top:0.5rem;
+	margin-bottom:1rem;
+}
+ul
+{
+	text-align:center;
+	list-style-position:inside;/*asterisks coming inside*/
+}
